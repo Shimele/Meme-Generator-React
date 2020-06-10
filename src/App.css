@@ -10,7 +10,7 @@ header{
 }
 header > img{
     height: 80%;
-    margin-left: 10%;
+    margin-left: 30%;
 }
 header > p{
     font-family:VT323, monospace ;
@@ -19,12 +19,15 @@ header > p{
     margin-left: 60px;
 }
 .meme{
+    border: 1px solid red;
+    width: 40%;
     position: relative;
     left: 30%;
-    bottom:70%
+    bottom:70%;
+    display: block;
 }
 .meme > img{
-    width: 40%;
+    width: 100%;
     height: 300px;
 }
 .meme > h3{
@@ -61,7 +64,7 @@ input[type=text] {
     margin: 8px 0;
     box-sizing: border-box;
     border: 2px solid #E2AD4B;
-  border-radius: 4px;
-  background-color: rgb(240, 107, 98);
-  color: white;
+    border-radius: 4px;
+    background-color: rgb(240, 107, 98);
+    color: white;
   }
