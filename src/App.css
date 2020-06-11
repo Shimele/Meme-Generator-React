@@ -24,6 +24,7 @@ header > p{
     left: 30%;
     bottom:70%;
     display: block;
+    
 }
 .meme > img{
     width: 100%;
@@ -67,3 +68,62 @@ input[type=text] {
     background-color: rgb(240, 107, 98);
     color: white;
   }
+
+  
+  @media screen and (max-width: 480px) {
+
+    header{
+        align-items: left;
+    }
+    header > img{
+        margin-left: 5%;
+    }
+    header > p{
+        font-size: 30px;
+    }
+    form{
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    form > button{
+        font-size: 1.5em;
+        width: 100%;
+    }
+    
+    input[type=text] {
+        width: 100%;
+      }
+    .meme {
+        margin-top: 5%;
+        width: 100%;
+        position: relative;
+        left: 0;
+        bottom:70%;
+    }
+
+  }
+  @media only screen and (min-width: 629px) {
+    header{
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    .meme{
+        width: 50%;
+        position: relative;
+        left: 25%;
+        bottom:70%;
+    }
+    
+    form{
+        margin-left: 25%;
+    }
+    form > button{
+        margin-left: 5px;
+        font-size: 1em;
+        width: 16%; 
+    }
+    
+    input[type=text] {
+        width: 25%;
+      }
+    }
